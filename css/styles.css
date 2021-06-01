@@ -537,8 +537,7 @@ img {
   justify-content: center;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  transition: color var(--transtime-duration) var(--transtiming-function),
-    border-color var(--transtime-duration) var(--transtiming-function);
+  transition: border-color var(--transtime-duration) var(--transtiming-function);
 }
 .client-link:hover,
 .client-link:focus {
@@ -719,7 +718,8 @@ img {
   border-radius: 4px;
   border-color: transparent;
   transition: color var(--transtime-duration) var(--transtiming-function),
-    background-color var(--transtime-duration) var(--transtiming-function);
+    background-color var(--transtime-duration) var(--transtiming-function),
+    box-shadow var(--transtime-duration) var(--transtiming-function);
 }
 
 .btn-item:hover,
